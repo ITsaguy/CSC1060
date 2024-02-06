@@ -62,7 +62,6 @@ public class Main {
                 System.out.print("I'll need that in dollars and cents (e.g., 10.00). Once again... ");
             }
         }
-
         // Output the donation amount
         System.out.println("Great! Thank you for your donation of $" + String.format("%.2f", donation) + ".");
     }
